@@ -48,6 +48,3 @@ endBtn.click(() => activeLink(link.eq(link.length - 1)));
 nextBtn.click(() => activeLink(link.eq(current + 1)));
 prevBtn.click(() => activeLink(link.eq(current - 1)))
 
-
-const arr = [1, 2, 3, 4];
-console.log(...arr);
